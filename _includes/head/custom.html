@@ -26,6 +26,36 @@
     transition: color 180ms ease, opacity 180ms ease;
   }
 
+  .greedy-nav .visible-links {
+    position: relative;
+    padding-right: 3rem;
+  }
+
+  .greedy-nav button:not(.hidden) + .visible-links {
+    padding-right: 5.6rem;
+  }
+
+  .greedy-nav .visible-links #theme-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    transform: translateY(-50%);
+  }
+
+  .greedy-nav button:not(.hidden) + .visible-links #theme-toggle {
+    right: 2.8rem;
+  }
+
+  .greedy-nav .visible-links #theme-toggle a {
+    margin: 0;
+    width: 2rem;
+    min-width: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .greedy-nav a::after {
     content: "";
     position: absolute;
