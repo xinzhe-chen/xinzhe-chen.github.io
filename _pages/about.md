@@ -45,9 +45,9 @@ My research interests lie in cryptography topics, especially **PQC network proto
 {: #educations}
 
 - **National University of Singapore (NUS)**<br>
-  M.Sc. in Computer Engineering, `2025.09 - 2027.01`
+  M.Sc. in Computer Engineering `2025.09 - 2027.01`
 - **University of Electronic Science and Technology of China (UESTC)**<br>
-  B.Eng. in Cyberspace Security, `2021.09 - 2025.07`
+  B.Eng. in Cyberspace Security `2021.09 - 2025.07`
 
 ## Internships
 {: #internships}
