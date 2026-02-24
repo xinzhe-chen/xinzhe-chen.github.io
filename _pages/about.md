@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Welcome to My Homepage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,16 +10,10 @@ redirect_from:
 ## About Me
 {: #about-me}
 
-I am a MSc student at National University of Singapore, majoring in Computer Engineering (DCT Track).
+I am a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track).
 
-This homepage is now structured as a **single page**. The top navigation links jump to the sections below instead of opening separate pages.
+My research interests lie in cryptography-related topics, especially **PQC network protocols** and **zero knowledge**. Blockchain and hash signature are interesting to me as well. I am actively looking for research opportunities in these areas, and I am also open to internships in industry labs.
 
-Write a short self-introduction here. Suggested items:
-
-- Current role / degree / university
-- Research interests or technical interests
-- What opportunities you are looking for
-- A 2-3 sentence summary of your current work
 
 ## News
 {: #news}
@@ -51,7 +45,7 @@ Write a short self-introduction here. Suggested items:
 {: #educations}
 
 - **National University of Singapore (NUS)**, M.Sc. in Computer Engineering, `2025.09 - 2027.01`
-- **South China University of Technology (SCUT)**, B.Eng. in Artificial Intelligence, `2021.09 - 2025.07`
+- **University of Electronic Science and Technology of China (UESTC)**, B.Eng. in Cyberspace Security, `2021.09 - 2025.07`
 
 ## Internships
 {: #internships}
