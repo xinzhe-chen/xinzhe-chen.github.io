@@ -253,6 +253,8 @@
         }
 
         event.preventDefault();
+        event.stopPropagation();
+        event.stopImmediatePropagation();
         scrollToSection(target, true);
       });
     }
