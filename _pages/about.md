@@ -75,7 +75,7 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
         <span class="org-entry-title"><img class="inline-org-logo" src="{{ '/images/nus_logo.jpg' | relative_url }}" alt="NUS logo"><strong>National University of Singapore ( NUS )</strong></span><br>
         <em>M.Sc. student in Computer Engineering, College of Design and Engineering</em>
       </div>
-      <span class="item-date">2025.09 - 2027.01</span>
+      <span class="item-date">2025.08 - 2027.01</span>
     </div>
   </li>
   <li>
