@@ -12,7 +12,8 @@ redirect_from:
 
 I am a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track).
 
-My research interests lie in cryptography topics, especially in **secure network protocols** and **zero knowledge**. Blockchain and hash signature are interesting to me as well. I am actively looking for research opportunities in these areas, and I am also open to internships in industry labs.
+My research interests lie in cryptography topics, especially in **secure network protocols** and **zero knowledge**. Blockchain and hash signature are interesting to me as well. <br>
+I am actively looking for research opportunities in these areas, and I am also open to internships in industry labs.
 
 
 ## News
@@ -22,7 +23,7 @@ My research interests lie in cryptography topics, especially in **secure network
 - `2025.xx`: Add a paper submission / internship / award update.
 - `2024.xx`: Add an important milestone.
 
-## Publications
+<!-- ## Publications
 {: #publications}
 
 ### Under Review
@@ -32,7 +33,7 @@ My research interests lie in cryptography topics, especially in **secure network
 ### Selected Publications
 
 - Paper title, venue, year
-- Paper title, venue, year
+- Paper title, venue, year -->
 
 ## Honors
 {: #honors}
