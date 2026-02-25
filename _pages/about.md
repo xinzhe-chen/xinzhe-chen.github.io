@@ -46,7 +46,7 @@ I am actively looking for research opportunities in these areas, and I am also o
 {: #education}
 
 - **National University of Singapore (NUS)**<br>
-  M.Sc. student in Computer Engineering (in progress) `2025.09 - 2027.01`
+  M.Sc. student in Computer Engineering `2025.09 - 2027.01`
 - **University of Electronic Science and Technology of China (UESTC)**<br>
   B.Eng. in Cyberspace Security `2021.09 - 2025.07`
 
@@ -54,4 +54,4 @@ I am actively looking for research opportunities in these areas, and I am also o
 {: #internships}
 
 - **Huawei 2012 Laboratories Nobert Wiener Research Centre**<br>
-  Research Intern, Wi-Fi PQC Research, `2025.09 - Now`
+  Research Intern, Wi-Fi PQC Research `2025.09 - Now`
