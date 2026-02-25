@@ -52,5 +52,5 @@ My research interests lie in cryptography topics, especially in **secure network
 ## Internships
 {: #internships}
 
-- **Company / Lab Name**, role, location, `start - end`
-- **Company / Lab Name**, role, location, `start - end`
+- **Huawei 2012 Laboratories Nobert Wiener Research Centre**<br>
+  Research Intern, Digital Trust Lab, `2025.09 - Now`
