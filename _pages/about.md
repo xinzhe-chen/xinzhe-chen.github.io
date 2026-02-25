@@ -44,25 +44,25 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
   <li>
     <div class="date-row">
       <span class="item-date">2025.05</span>
-      <span class="item-content"><em><strong>Outstanding Graduation Project Award</strong></em></span>
+      <span class="item-content"><em><strong>Outstanding Graduation Project Award</strong></em> ( NUSRI )</span>
     </div>
   </li>
   <li>
     <div class="date-row">
       <span class="item-date">2024.12</span>
-      <span class="item-content"><em><strong>Outstanding Student Scholarship</strong></em></span>
+      <span class="item-content"><em><strong>Outstanding Student Scholarship</strong></em> ( SCSE of UESTC ) </span>
     </div>
   </li>
   <li>
     <div class="date-row">
       <span class="item-date">2023.12</span>
-      <span class="item-content"><em><strong>Model Student Scholarship</strong></em></span>
+      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( SCSE of UESTC )</span>
     </div>
   </li>
   <li>
     <div class="date-row">
       <span class="item-date">2022.12</span>
-      <span class="item-content"><em><strong>Model Student Scholarship</strong></em></span>
+      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( SCSE of UESTC )</span>
     </div>
   </li>
 </ul>
