@@ -12,46 +12,96 @@ redirect_from:
 
 I am a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track).
 
-My research interests lie in cryptography topics, especially in **secure network protocols** and **zero knowledge**. Blockchain and hash signature are interesting to me as well. <br>
-I am actively looking for research opportunities in these areas, and I am also open to internships in industry labs.
+My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero Knowledge***. Blockchain and hash signature are interesting to me as well.
+
+<strong style="color: #c0392b;">I am actively looking for research opportunities in these areas.</strong>
+
 
 
 ## News
 {: #news}
 
-- `2026.xx`: Add your latest update here.
-- `2025.xx`: Add a paper submission / internship / award update.
-- `2024.xx`: Add an important milestone.
+<ul>
+  <li>
+    <div class="date-row">
+      <span class="item-date">xxxx.xx</span>
+      <span class="item-content">To be added.</span>
+    </div>
+  </li>
+</ul>
 
-<!-- ## Publications
+## Publications
 {: #publications}
 
-### Under Review
+### Select Publications
 
-- Paper title, authors, venue (or status), links (`arXiv`, `code`, `project page`)
-
-### Selected Publications
-
-- Paper title, venue, year
-- Paper title, venue, year -->
+- To be released.
 
 ## Honors
 {: #honors}
 
-- `2025.xx` Scholarship / Award name
-- `2024.xx` Scholarship / Award name
-- `2023.xx` Scholarship / Award name
+<ul>
+  <li>
+    <div class="date-row">
+      <span class="item-date">2025.05</span>
+      <span class="item-content"><em><strong>Outstanding Graduation Project Award</strong></em> ( top 15% in NUSRI )</span>
+    </div>
+  </li>
+  <li>
+    <div class="date-row">
+      <span class="item-date">2024.12</span>
+      <span class="item-content"><em><strong>Outstanding Student Scholarship</strong></em> ( top 15% in UESTC )</span>
+    </div>
+  </li>
+  <li>
+    <div class="date-row">
+      <span class="item-date">2023.12</span>
+      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( top 15% in UESTC )</span>
+    </div>
+  </li>
+  <li>
+    <div class="date-row">
+      <span class="item-date">2022.12</span>
+      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( top 25% in UESTC )</span>
+    </div>
+  </li>
+</ul>
 
 ## Education
 {: #education}
 
-- **National University of Singapore (NUS)**<br>
-  M.Sc. student in Computer Engineering `2025.09 - 2027.01`
-- **University of Electronic Science and Technology of China (UESTC)**<br>
-  B.Eng. in Cyberspace Security `2021.09 - 2025.07`
+<ul>
+  <li>
+    <div class="date-row date-row--end">
+      <div class="item-content">
+        <em><strong>National University of Singapore (NUS)</strong></em><br>
+        M.Sc. student in Computer Engineering, College of Design and Engineering
+      </div>
+      <span class="item-date">2025.09 - 2027.01</span>
+    </div>
+  </li>
+  <li>
+    <div class="date-row date-row--end">
+      <div class="item-content">
+        <em><strong>University of Electronic Science and Technology of China (UESTC)</strong></em><br>
+        B.Eng. in Cyberspace Security, School Computer Science and Engineering
+      </div>
+      <span class="item-date">2021.09 - 2025.07</span>
+    </div>
+  </li>
+</ul>
 
 ## Internships
 {: #internships}
 
-- **Huawei 2012 Laboratories Nobert Wiener Research Centre**<br>
-  Research Intern, Wi-Fi PQC Research `2025.09 - Now`
+<ul>
+  <li>
+    <div class="date-row date-row--end">
+      <div class="item-content">
+        <em><strong>Huawei 2012 Laboratories Nobert Wiener Research Centre</strong></em><br>
+        Research Intern: Wi-Fi and IEEE 802.11 Post-Quantum-Cryptography Research
+      </div>
+      <span class="item-date">2025.09 - Now</span>
+    </div>
+  </li>
+</ul>

@@ -20,7 +20,7 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include suffix(0.5 of 12);
   }
 
   .page__inner-wrap {
@@ -398,4 +398,55 @@
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
+}
+
+/*
+   Date rows (homepage sections like news/honors/education)
+   ========================================================================== */
+
+.date-row {
+  display: block;
+}
+
+.date-row .item-date {
+  display: block;
+  white-space: nowrap;
+  color: var(--global-text-color);
+  opacity: 0.78;
+  font-family: $monospace;
+}
+
+.date-row .item-content {
+  min-width: 0;
+}
+
+@include breakpoint($medium) {
+  .date-row {
+    display: grid;
+    gap: 0.75rem;
+    align-items: start;
+  }
+
+  .date-row:not(.date-row--end) {
+    grid-template-columns: 1fr auto;
+  }
+
+  .date-row.date-row--end {
+    grid-template-columns: 1fr auto;
+  }
+
+  .date-row:not(.date-row--end) .item-content {
+    order: 1;
+  }
+
+  .date-row:not(.date-row--end) .item-date {
+    order: 2;
+    justify-self: end;
+    text-align: right;
+  }
+
+  .date-row.date-row--end .item-date {
+    justify-self: end;
+    text-align: right;
+  }
 }

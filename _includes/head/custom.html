@@ -56,6 +56,21 @@
     justify-content: center;
   }
 
+  @media (min-width: 64em) {
+    .greedy-nav button.hidden + .visible-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      gap: 3rem;
+    }
+
+    .greedy-nav button.hidden + .visible-links > li:not(#theme-toggle) a {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
   .greedy-nav a::after {
     content: "";
     position: absolute;
