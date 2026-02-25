@@ -1,5 +1,11 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=y0MJsPlujbrojETm0PATH5hrxM_MAsUg4Rf_vVKOtEg"></script>
+<div
+  id="mmvst_globe_host"
+  aria-hidden="true"
+  style="position:fixed;right:16px;bottom:16px;width:0;height:0;overflow:visible;z-index:9999;line-height:0;"
+>
+  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=y0MJsPlujbrojETm0PATH5hrxM_MAsUg4Rf_vVKOtEg"></script>
+</div>
 
 {% include analytics.html %}
