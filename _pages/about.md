@@ -82,7 +82,7 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
     <div class="date-row date-row--end">
       <div class="item-content">
         <span class="org-entry-title"><img class="inline-org-logo" src="{{ '/images/uestclog' | relative_url }}" alt="UESTC logo"><strong>University of Electronic Science and Technology of China ( UESTC )</strong></span><br>
-        <em>B.Eng. in Cyberspace Security, School Computer Science and Engineering</em>
+        <em>B.Eng. in Cyberspace Security, School of Computer Science and Engineering</em>
       </div>
       <span class="item-date">2021.09 - 2025.07</span>
     </div>
