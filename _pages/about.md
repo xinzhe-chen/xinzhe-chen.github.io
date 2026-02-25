@@ -33,8 +33,6 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
 ## Publications
 {: #publications}
 
-### Select Publications
-
 - To be released.
 
 ## Honors
