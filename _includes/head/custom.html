@@ -154,6 +154,12 @@
     const root = document.documentElement;
     const masthead = document.querySelector(".masthead");
     const navLinks = Array.from(document.querySelectorAll('.greedy-nav a[href*="#"]'));
+    const navEntry = (performance.getEntriesByType && performance.getEntriesByType("navigation")[0]) || null;
+    const isBackForward = navEntry && navEntry.type === "back_forward";
+
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
 
     if (!navLinks.length) return;
 
@@ -312,6 +318,13 @@
       updateActiveNav();
     });
     window.addEventListener("scroll", onScroll, { passive: true });
+
+    if (!window.location.hash && !isBackForward) {
+      window.requestAnimationFrame(() => {
+        window.scrollTo(0, 0);
+        updateActiveNav();
+      });
+    }
 
     if (window.location.hash) {
       const initialId = decodeURIComponent(window.location.hash.slice(1));
