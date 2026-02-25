@@ -75,7 +75,7 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
     <div class="date-row date-row--end">
       <div class="item-content">
         <strong>National University of Singapore ( NUS )</strong><br>
-        M.Sc. student in Computer Engineering, College of Design and Engineering
+        <em>M.Sc. student in Computer Engineering, College of Design and Engineering</em>
       </div>
       <span class="item-date">2025.09 - 2027.01</span>
     </div>
@@ -84,7 +84,7 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
     <div class="date-row date-row--end">
       <div class="item-content">
         <strong>University of Electronic Science and Technology of China</em> ( UESTC )</strong><br>
-        B.Eng. in Cyberspace Security, School Computer Science and Engineering
+        <em>B.Eng. in Cyberspace Security, School Computer Science and Engineering</em>
       </div>
       <span class="item-date">2021.09 - 2025.07</span>
     </div>
@@ -98,8 +98,8 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
   <li>
     <div class="date-row date-row--end">
       <div class="item-content">
-        <em><strong>Huawei 2012 Laboratories Nobert Wiener Research Centre</strong></em><br>
-        Research Intern: Wi-Fi and IEEE 802.11 Post-Quantum-Cryptography Research
+        <strong>Huawei 2012 Laboratories Nobert Wiener Research Centre</strong><br>
+        <em>Research Intern: Wi-Fi and IEEE 802.11 Post-Quantum-Cryptography Research</em>
       </div>
       <span class="item-date">2025.09 - Now</span>
     </div>
