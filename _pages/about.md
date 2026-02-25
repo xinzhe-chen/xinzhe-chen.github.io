@@ -53,4 +53,4 @@ My research interests lie in cryptography topics, especially in **secure network
 {: #internships}
 
 - **Huawei 2012 Laboratories Nobert Wiener Research Centre**<br>
-  Research Intern, Digital Trust Lab, `2025.09 - Now`
+  Research Intern, Wi-Fi PQC Research, `2025.09 - Now`
