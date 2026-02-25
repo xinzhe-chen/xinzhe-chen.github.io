@@ -24,8 +24,8 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
 <ul>
   <li>
     <div class="date-row">
-      <span class="item-date">xxxx.xx</span>
-      <span class="item-content">To be added.</span>
+      <span class="item-date">2026.02.25</span>
+      <span class="item-content">My homepage is now live!</span>
     </div>
   </li>
 </ul>
@@ -44,25 +44,25 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
   <li>
     <div class="date-row">
       <span class="item-date">2025.05</span>
-      <span class="item-content"><em><strong>Outstanding Graduation Project Award</strong></em> ( NUSRI )</span>
+      <span class="item-content"><em><strong>Outstanding Graduation Project Award</strong></em> ( <em>NUSRI</em> )</span>
     </div>
   </li>
   <li>
     <div class="date-row">
       <span class="item-date">2024.12</span>
-      <span class="item-content"><em><strong>Outstanding Student Scholarship</strong></em> ( SCSE of UESTC ) </span>
+      <span class="item-content"><em><strong>Outstanding Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
     </div>
   </li>
   <li>
     <div class="date-row">
       <span class="item-date">2023.12</span>
-      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( SCSE of UESTC )</span>
+      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
     </div>
   </li>
   <li>
     <div class="date-row">
       <span class="item-date">2022.12</span>
-      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( SCSE of UESTC )</span>
+      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
     </div>
   </li>
 </ul>
@@ -83,7 +83,7 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
   <li>
     <div class="date-row date-row--end">
       <div class="item-content">
-        <strong>University of Electronic Science and Technology of China</em> ( UESTC )</strong><br>
+        <strong>University of Electronic Science and Technology of China ( UESTC )</strong><br>
         <em>B.Eng. in Cyberspace Security, School Computer Science and Engineering</em>
       </div>
       <span class="item-date">2021.09 - 2025.07</span>
