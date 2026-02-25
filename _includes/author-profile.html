@@ -128,7 +128,17 @@
       {% endif %}      
       {% if author.linkedin %}
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
-      {% endif %}      
+      {% endif %}
+      <li class="author__desktop author__map-widget">
+        <div class="author__map-widget-inner">
+          <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=a-s-f7WD6T0sgjHzS7HbV8fz6wBhStIW8Cb6-uoFB2M&cl=ffffff&w=a"></script>
+          <noscript>
+            <a href="https://mapmyvisitors.com/web/1c2tl" title="Visit tracker">
+              <img src="https://mapmyvisitors.com/map.png?d=a-s-f7WD6T0sgjHzS7HbV8fz6wBhStIW8Cb6-uoFB2M&cl=ffffff" alt="Visit tracker map" loading="lazy" />
+            </a>
+          </noscript>
+        </div>
+      </li>
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
       {% endif %}

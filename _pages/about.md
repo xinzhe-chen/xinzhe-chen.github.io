@@ -10,7 +10,7 @@ redirect_from:
 ## About Me
 {: #about-me}
 
-I am currently a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track). Currently, I am conducting CEG5003(Research Project) under the guidance of Prof. [Marco Tomamichel](https://cde.nus.edu.sg/ece/staff/marco-tomamichel/) on comprehensive evaluation of hash signature schemes.
+I am currently a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track). Currently, I am conducting CEG5003 (Research Project) under the guidance of Prof. [Marco Tomamichel](https://cde.nus.edu.sg/ece/staff/marco-tomamichel/) on comprehensive evaluation of hash signature schemes.
 
 My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero Knowledge***. Blockchain and hash signature are interesting to me as well.
 
