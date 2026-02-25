@@ -74,7 +74,7 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
   <li>
     <div class="date-row date-row--end">
       <div class="item-content">
-        <em><strong>National University of Singapore </em>(<em> NUS </em>)</strong><br>
+        <strong>National University of Singapore ( NUS )</strong><br>
         M.Sc. student in Computer Engineering, College of Design and Engineering
       </div>
       <span class="item-date">2025.09 - 2027.01</span>
@@ -83,7 +83,7 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
   <li>
     <div class="date-row date-row--end">
       <div class="item-content">
-        <em><strong>University of Electronic Science and Technology of China</em> (<em>UESTC</em>)</strong><br>
+        <strong>University of Electronic Science and Technology of China</em> ( UESTC )</strong><br>
         B.Eng. in Cyberspace Security, School Computer Science and Engineering
       </div>
       <span class="item-date">2021.09 - 2025.07</span>
