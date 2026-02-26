@@ -5,6 +5,12 @@ hide_page_title: true
 author_profile: true
 ---
 
+<style>
+  .page__inner-wrap > header {
+    display: none;
+  }
+</style>
+
 ## Comments
 {: #comments}
 
