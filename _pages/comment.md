@@ -1,6 +1,7 @@
 ---
 permalink: /comment/
 title: "Comment"
+hide_page_title: true
 author_profile: true
 ---
 
