@@ -12,7 +12,7 @@ redirect_from:
 
 I am currently a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track). Currently, I am conducting CEG5003 (Research Project) under the guidance of Prof. [Marco Tomamichel](https://cde.nus.edu.sg/ece/staff/marco-tomamichel/) on comprehensive evaluation of hash signature schemes.
 
-My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero Knowledge***. Blockchain and hash signature are interesting to me as well.
+My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero-Knowledge Proof***. Blockchain and hash signature are interesting to me as well.
 
 <strong style="color: #c0392b;">I am actively looking for research opportunities in these areas.</strong>
 
@@ -103,3 +103,22 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
     </div>
   </li>
 </ul>
+
+## Comments
+{: #comments}
+
+<script
+  src="https://giscus.app/client.js"
+  data-repo="xinzhe-chen/xinzhe-chen.github.io"
+  data-repo-id="R_kgDOQxBxOg"
+  data-category-id="DIC_kwDOQxBxOs4C3QW-"
+  data-mapping="pathname"
+  data-strict="0"
+  data-reactions-enabled="1"
+  data-emit-metadata="0"
+  data-input-position="bottom"
+  data-theme="preferred_color_scheme"
+  data-lang="zh-CN"
+  crossorigin="anonymous"
+  async>
+</script>
