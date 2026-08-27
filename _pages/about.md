@@ -14,7 +14,7 @@ redirect_from:
 
 I am currently a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track).
 
-My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero-Knowledge Proof***. Blockchain and hash signature are interesting to me as well.
+My research interests lie in cryptography topics, especially in ***Cryptographic Protocols*** and ***Zero-Knowledge Proof***. Blockchain and hash signature are interesting to me as well.
 
 <div class="document-links" aria-label="Academic documents">
   <a class="document-link document-link--primary" href="{{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a>
