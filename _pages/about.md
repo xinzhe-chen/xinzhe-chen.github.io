@@ -2,6 +2,8 @@
 permalink: /
 title: "Welcome to My Homepage"
 author_profile: true
+hide_page_title: true
+page_class: homepage
 redirect_from: 
   - /about/
   - /about.html
@@ -14,20 +16,20 @@ I am currently a MSc student at National University of Singapore, majoring in Co
 
 My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero-Knowledge Proof***. Blockchain and hash signature are interesting to me as well.
 
-You can find my CV [here]({{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}).
+<p class="homepage-actions"><a class="btn btn--primary homepage-cv-link" href="{{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae (PDF)</a></p>
 
-<strong style="color: #c0392b;">I am actively looking for research opportunities in these areas.</strong>
+<p class="availability-note">I am actively looking for research opportunities in these areas.</p>
 
 
 
 ## News
 {: #news}
 
-<ul>
+<ul class="homepage-list">
   <li>
-    <div class="date-row">
-      <span class="item-date">2026.02.25</span>
+    <div class="date-row homepage-row">
       <span class="item-content">My homepage is now live!</span>
+      <span class="item-date">2026.02.25</span>
     </div>
   </li>
 </ul>
@@ -36,16 +38,18 @@ You can find my CV [here]({{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}).
 {: #publications}
 
 <ul class="publication-list">
-  <li>
-    <div class="date-row publication-row">
-      <span class="item-content"><strong>Distributed SNARK via Folding Schemes.</strong></span>
-      <span class="item-date">Accepted by <em>Journal of Cryptologic Research</em>.</span>
+  <li class="publication-card">
+    <div class="publication-card__title">Distributed SNARK via Folding Schemes</div>
+    <div class="publication-card__meta">
+      <span class="publication-card__status">Accepted</span>
+      <span>Journal of Cryptologic Research</span>
     </div>
   </li>
-  <li>
-    <div class="date-row publication-row">
-      <span class="item-content"><strong><a href="https://eprint.iacr.org/2025/2327.pdf">Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication</a>.</strong></span>
-      <span class="item-date">Under review at <em>PKC 2027</em>.</span>
+  <li class="publication-card">
+    <div class="publication-card__title"><a href="https://eprint.iacr.org/2025/2327.pdf">Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication</a></div>
+    <div class="publication-card__meta">
+      <span class="publication-card__status">Under Review</span>
+      <span>PKC 2027</span>
     </div>
   </li>
 </ul>
@@ -53,29 +57,29 @@ You can find my CV [here]({{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}).
 ## Honors
 {: #honors}
 
-<ul>
+<ul class="homepage-list">
   <li>
     <div class="date-row">
-      <span class="item-date">2025.05</span>
       <span class="item-content"><em><strong>Outstanding Graduation Project Award</strong></em> ( <em>NUSRI</em> )</span>
+      <span class="item-date">2025.05</span>
     </div>
   </li>
   <li>
     <div class="date-row">
-      <span class="item-date">2024.12</span>
       <span class="item-content"><em><strong>Outstanding Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
+      <span class="item-date">2024.12</span>
     </div>
   </li>
   <li>
     <div class="date-row">
+      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
       <span class="item-date">2023.12</span>
-      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
     </div>
   </li>
   <li>
     <div class="date-row">
-      <span class="item-date">2022.12</span>
       <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
+      <span class="item-date">2022.12</span>
     </div>
   </li>
 </ul>
@@ -83,7 +87,7 @@ You can find my CV [here]({{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}).
 ## Education
 {: #education}
 
-<ul>
+<ul class="homepage-list">
   <li>
     <div class="date-row date-row--end">
       <div class="item-content">
@@ -107,7 +111,7 @@ You can find my CV [here]({{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}).
 ## Internships
 {: #internships}
 
-<ul>
+<ul class="homepage-list">
   <li>
     <div class="date-row date-row--end">
       <div class="item-content">
