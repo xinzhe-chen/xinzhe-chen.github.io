@@ -13,4 +13,5 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+{% assign asset_version = site.github.build_revision | default: site.time %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ asset_version | slugify }}">

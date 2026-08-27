@@ -16,7 +16,11 @@ I am currently a MSc student at National University of Singapore, majoring in Co
 
 My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero-Knowledge Proof***. Blockchain and hash signature are interesting to me as well.
 
-<p class="homepage-actions"><a class="btn btn--primary homepage-cv-link" href="{{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae (PDF)</a></p>
+<div class="document-links" aria-label="Academic documents">
+  <a class="document-link document-link--primary" href="{{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a>
+  <a class="document-link" href="{{ '/files/Undergraduate_Transcript_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> Undergraduate Transcript</a>
+  <a class="document-link" href="{{ '/files/Graduate_Transcript_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> Graduate Transcript</a>
+</div>
 
 <p class="availability-note">I am actively looking for research opportunities in these areas.</p>
 
