@@ -119,7 +119,7 @@ My research interests lie in cryptography topics, especially in ***Cryptographic
   <li>
     <div class="date-row date-row--end">
       <div class="item-content">
-        <span class="org-entry-title"><img class="inline-org-logo" src="{{ '/images/huawei_logo.jpg' | relative_url }}" alt="Huawei logo"><strong>Huawei 2012 Laboratories Nobert Wiener Research Centre</strong></span><br>
+        <span class="org-entry-title"><img class="inline-org-logo" src="{{ '/images/huawei_logo.jpg' | relative_url }}" alt="Huawei logo"><strong>Huawei 2012 Labs Singapore Research Center</strong></span><br>
         <em>Research Intern: Wi-Fi and IEEE 802.11 Post-Quantum-Cryptography Research</em>
       </div>
       <span class="item-date">2025.09 - Now</span>
