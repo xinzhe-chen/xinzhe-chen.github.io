@@ -35,8 +35,20 @@ You can find my CV [here]({{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}).
 ## Publications
 {: #publications}
 
-- **Distributed SNARK via Folding Schemes.** Accepted by *Journal of Cryptologic Research*.
-- **[Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication](https://eprint.iacr.org/2025/2327.pdf).** Under review at *PKC 2027*.
+<ul class="publication-list">
+  <li>
+    <div class="date-row publication-row">
+      <span class="item-content"><strong>Distributed SNARK via Folding Schemes.</strong></span>
+      <span class="item-date">Accepted by <em>Journal of Cryptologic Research</em>.</span>
+    </div>
+  </li>
+  <li>
+    <div class="date-row publication-row">
+      <span class="item-content"><strong><a href="https://eprint.iacr.org/2025/2327.pdf">Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication</a>.</strong></span>
+      <span class="item-date">Under review at <em>PKC 2027</em>.</span>
+    </div>
+  </li>
+</ul>
 
 ## Honors
 {: #honors}
