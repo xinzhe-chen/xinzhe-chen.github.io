@@ -64,25 +64,25 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
 <ul class="homepage-list">
   <li>
     <div class="date-row">
-      <span class="item-content"><em><strong>Outstanding Graduation Project Award</strong></em> ( <em>NUSRI</em> )</span>
+      <span class="item-content"><strong>Outstanding Graduation Project Award</strong> <span class="item-affiliation">(NUSRI)</span></span>
       <span class="item-date">2025.05</span>
     </div>
   </li>
   <li>
     <div class="date-row">
-      <span class="item-content"><em><strong>Outstanding Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
+      <span class="item-content"><strong>Outstanding Student Scholarship</strong> <span class="item-affiliation">(SCSE of UESTC)</span></span>
       <span class="item-date">2024.12</span>
     </div>
   </li>
   <li>
     <div class="date-row">
-      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
+      <span class="item-content"><strong>Model Student Scholarship</strong> <span class="item-affiliation">(SCSE of UESTC)</span></span>
       <span class="item-date">2023.12</span>
     </div>
   </li>
   <li>
     <div class="date-row">
-      <span class="item-content"><em><strong>Model Student Scholarship</strong></em> ( <em>SCSE of UESTC</em> )</span>
+      <span class="item-content"><strong>Model Student Scholarship</strong> <span class="item-affiliation">(SCSE of UESTC)</span></span>
       <span class="item-date">2022.12</span>
     </div>
   </li>
