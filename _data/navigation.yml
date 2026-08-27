@@ -17,6 +17,9 @@ main:
   - title: "Publications"
     url: /#publications
 
+  - title: "CV"
+    url: /files/CV_Xinzhe_Chen.pdf
+
   - title: "Honors"
     url: /#honors
 

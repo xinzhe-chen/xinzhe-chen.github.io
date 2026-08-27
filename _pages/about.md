@@ -14,6 +14,8 @@ I am currently a MSc student at National University of Singapore, majoring in Co
 
 My research interests lie in cryptography topics, especially in ***Secure Network Protocols*** and ***Zero-Knowledge Proof***. Blockchain and hash signature are interesting to me as well.
 
+You can find my CV [here]({{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}).
+
 <strong style="color: #c0392b;">I am actively looking for research opportunities in these areas.</strong>
 
 
@@ -33,7 +35,8 @@ My research interests lie in cryptography topics, especially in ***Secure Networ
 ## Publications
 {: #publications}
 
-- To be released.
+- **Distributed SNARK via Folding Schemes.** Accepted by *Journal of Cryptologic Research*.
+- **[Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication](https://eprint.iacr.org/2025/2327.pdf).** Under review at *PKC 2027*.
 
 ## Honors
 {: #honors}
