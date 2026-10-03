@@ -8,7 +8,16 @@
   const actions = panel.querySelector('.comment-status__actions');
   const host = panel.querySelector('.giscus');
   const giscusOrigin = 'https://giscus.app';
-  const theme = () => document.documentElement.dataset.theme === 'dark' ? 'transparent_dark' : 'noborder_light';
+  const themeUrl = mode => new URL(panel.dataset.themeBase + '-' + mode + '.css?v=' + panel.dataset.themeVersion, window.location.origin).href;
+  const theme = () => themeUrl(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+  for (const mode of ['light', 'dark']) {
+    const preload = document.createElement('link');
+    preload.rel = 'prefetch';
+    preload.as = 'style';
+    preload.crossOrigin = 'anonymous';
+    preload.href = themeUrl(mode);
+    document.head.appendChild(preload);
+  }
   let frame = null;
   let lastTheme = null;
   let slowTimer;
@@ -80,7 +89,7 @@
     'emit-metadata': '1',
     'input-position': 'top',
     theme: theme(),
-    lang: 'zh-CN',
+    lang: 'en',
   };
   for (const [key, value] of Object.entries(config)) script.setAttribute('data-' + key, value);
   script.addEventListener('error', () => setState('error'));

@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
+# About Me
 {: #about-me}
 
 I am an M.Sc. student in Computer Engineering at the **National University of Singapore (NUS)** and a Research Intern at **Huawei 2012 Labs Singapore Research Center**.
@@ -48,19 +48,25 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
 {: #internships}
 
 <ul class="homepage-list experience-list">
-  <li>
+  <li class="curriculum-entry">
+    <img class="entry-emblem" src="{{ '/images/huawei_logo.jpg' | relative_url }}" alt="" width="32" height="32" loading="lazy">
+    <div class="entry-body">
     <div class="date-row">
-      <h3 class="entry-title org-entry-title"><img class="inline-org-logo" src="{{ '/images/huawei_logo.jpg' | relative_url }}" alt="" loading="lazy">Huawei 2012 Labs Singapore Research Center</h3>
+      <h3 class="entry-title">Huawei 2012 Labs Singapore Research Center</h3>
       <span class="item-date">Sep 2025 - Present</span>
     </div>
     <p class="entry-meta">Research Intern &middot; Wi-Fi and IEEE 802.11 Standardization Research</p>
+    </div>
   </li>
-  <li>
+  <li class="curriculum-entry">
+    <span class="entry-emblem" aria-hidden="true"><i class="fas fa-building-columns"></i></span>
+    <div class="entry-body">
     <div class="date-row">
       <h3 class="entry-title">Beijing Institute of Mathematical Sciences and Applications (BIMSA)</h3>
       <span class="item-date">Dec 2025 - May 2026</span>
     </div>
     <p class="entry-meta">Research Assistant</p>
+    </div>
   </li>
 </ul>
 
@@ -68,21 +74,27 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
 {: #education}
 
 <ul class="homepage-list experience-list">
-  <li>
+  <li class="curriculum-entry">
+    <img class="entry-emblem" src="{{ '/images/nus_logo.jpg' | relative_url }}" alt="" width="32" height="32" loading="lazy">
+    <div class="entry-body">
     <div class="date-row">
-      <h3 class="entry-title org-entry-title"><img class="inline-org-logo" src="{{ '/images/nus_logo.jpg' | relative_url }}" alt="" loading="lazy">National University of Singapore (NUS)</h3>
+      <h3 class="entry-title">National University of Singapore (NUS)</h3>
       <span class="item-date">Aug 2025 - Jan 2027</span>
     </div>
     <p class="entry-meta">M.Sc. in Computer Engineering &middot; Expected Jan 2027</p>
     <p class="entry-description">College of Design and Engineering &middot; GPA: <strong>4.38/5.0</strong></p>
+    </div>
   </li>
-  <li>
+  <li class="curriculum-entry">
+    <img class="entry-emblem" src="{{ '/images/uestclog' | relative_url }}" alt="" width="32" height="32" loading="lazy">
+    <div class="entry-body">
     <div class="date-row">
-      <h3 class="entry-title org-entry-title"><img class="inline-org-logo" src="{{ '/images/uestclog' | relative_url }}" alt="" loading="lazy">University of Electronic Science and Technology of China (UESTC)</h3>
+      <h3 class="entry-title">University of Electronic Science and Technology of China (UESTC)</h3>
       <span class="item-date">Sep 2021 - Jul 2025</span>
     </div>
     <p class="entry-meta">B.Eng. in Cyberspace Security</p>
     <p class="entry-description">School of Computer Science and Engineering &middot; GPA: <strong>3.73/4.0</strong></p>
+    </div>
   </li>
 </ul>
 

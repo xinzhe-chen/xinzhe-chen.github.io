@@ -1,126 +1,38 @@
 .comment-body .page__inner-wrap > header { display: none; }
-.comment-body .page__content { max-width: 780px; }
-
-.comment-intro {
-  margin-bottom: 1.75rem;
-
-  h1 {
-    margin: 0 0 0.65rem;
-    color: var(--home-accent-color);
-    font-size: 1.75rem;
-    font-weight: 650;
-    letter-spacing: -0.04em;
-    line-height: 1.25;
-  }
-
-  > p { margin: 0 0 1rem; font-size: 0.98rem; }
-
-  &__links {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.6rem 1.5rem;
-    color: var(--home-muted-color);
-    font-size: 0.8rem;
-
-    i { margin-right: 0.35rem; }
-    a { font-weight: 600; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  }
-}
-
-.comment-panel {
-  padding: 1.4rem 1.5rem;
-  border: 1px solid var(--home-border-color);
-  border-radius: 12px;
-  background: var(--global-bg-color);
-  box-shadow: 0 4px 24px rgba(40, 87, 129, 0.04);
-
-  .giscus {
-    opacity: 1;
-    transition: opacity 280ms ease-out;
-  }
-
-  &[data-state='loading'] .giscus { height: 0; min-height: 0; opacity: 0; overflow: hidden; }
-  &[data-state='error'] .giscus { display: none; }
-
-  &[data-state='ready'] .giscus { animation: guestbookContentIn 380ms cubic-bezier(0.22, 1, 0.36, 1) both; }
-
-  iframe.giscus-frame { display: block; width: 100%; border: 0; color-scheme: normal; }
-}
-
-.comment-status {
-  padding: 0.5rem 0;
-  &[hidden] { display: none; }
-}
-
-.homepage .comment-status__text {
-  margin: 0.8rem 0 0;
-  color: var(--home-muted-color);
-  font-size: 0.85rem;
-}
-
-.comment-status__actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.7rem 1.2rem;
-  margin-top: 1rem;
-  font-size: 0.8rem;
-  &[hidden] { display: none; }
-
-  button {
-    min-height: 44px;
-    padding: 0.5rem 0.85rem;
-    border: 1px solid var(--home-border-color);
-    border-radius: 6px;
-    color: var(--home-accent-color);
-    background: var(--home-surface-color);
-    font-size: inherit;
-    font-weight: 600;
-    cursor: pointer;
-    transition: border-color 180ms ease;
-    &:hover, &:focus-visible { border-color: var(--home-accent-color); }
-  }
-}
-
-.comment-loading {
-  display: grid;
-  gap: 0.75rem;
-  padding-bottom: 0.8rem;
-
-  span {
-    display: block;
-    height: 0.8rem;
-    border-radius: 5px;
-    background: var(--home-surface-color);
-    animation: guestbookLoading 1400ms ease-in-out infinite alternate;
-    &:first-child { width: 36%; height: 1rem; }
-    &:nth-child(2) { width: 86%; animation-delay: 150ms; }
-    &:last-child { width: 65%; animation-delay: 300ms; }
-  }
-}
-
+.comment-body .page__content { max-width: 776px; }
+.comment-intro { margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid var(--home-border-color); }
+.comment-intro h1 { margin: 0 0 16px; color: var(--global-text-color); font-size: 32px; font-weight: 650; letter-spacing: -0.045em; line-height: 1.15; }
+.comment-intro > p { margin: 0 0 20px; color: var(--home-muted-color); font-size: 15px; line-height: 1.8; }
+.comment-intro__links { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; color: var(--home-muted-color); font-size: 12px; line-height: 1.65; }
+.comment-intro__links > span { display: flex; align-items: center; gap: 8px; }
+.comment-intro__links a { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; font-weight: 550; text-decoration: none; }
+.comment-intro__links a:hover { text-decoration: underline; }
+.comment-panel { min-width: 0; }
+.comment-panel .giscus { opacity: 1; }
+.comment-panel[data-state='loading'] .giscus { height: 0; min-height: 0; opacity: 0; overflow: hidden; }
+.comment-panel[data-state='error'] .giscus { display: none; }
+.comment-panel[data-state='ready'] .giscus { animation: guestbookContentIn 500ms cubic-bezier(0.22, 1, 0.36, 1) both; }
+.comment-panel iframe.giscus-frame { display: block; width: 100%; border: 0; color-scheme: normal; }
+.comment-status { padding: 24px; border: 1px solid var(--home-border-color); border-radius: 12px; background: var(--home-card-color); }
+.comment-status[hidden] { display: none; }
+.homepage .comment-status__text { margin: 16px 0 0; color: var(--home-muted-color); font-size: 13px; line-height: 1.7; }
+.comment-status__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 20px; font-size: 12px; }
+.comment-status__actions[hidden] { display: none; }
+.comment-status__actions button { min-height: 40px; padding: 8px 14px; border: 1px solid var(--home-border-color); border-radius: 8px; color: var(--home-accent-color); background: var(--home-surface-color); font-size: inherit; font-weight: 550; cursor: pointer; transition: border-color 180ms ease; }
+.comment-status__actions button:hover { border-color: var(--home-accent-color); }
+.comment-loading { display: grid; gap: 12px; padding-bottom: 12px; }
+.comment-loading span { display: block; height: 12px; border-radius: 6px; background: var(--home-surface-color); animation: guestbookLoading 1600ms ease-in-out infinite alternate; }
+.comment-loading span:first-child { width: 30%; height: 16px; }
+.comment-loading span:nth-child(2) { width: 86%; animation-delay: 150ms; }
+.comment-loading span:last-child { width: 65%; height: 80px; animation-delay: 300ms; }
 .comment-panel[data-state='error'] .comment-loading { display: none; }
-
-@keyframes guestbookLoading {
-  from { opacity: 0.45; }
-  to { opacity: 1; }
-}
-
-@keyframes guestbookContentIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
+@keyframes guestbookLoading { from { opacity: 0.45; } to { opacity: 1; } }
+@keyframes guestbookContentIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @media (max-width: 600px) {
-  .comment-intro { margin-bottom: 1.25rem; }
-  .comment-intro h1 { font-size: 1.5rem; }
-  .comment-panel { padding: 1rem 0.85rem; border-radius: 9px; }
+  .comment-intro { margin-bottom: 24px; padding-bottom: 20px; }
+  .comment-intro h1 { font-size: 28px; }
+  .comment-intro > p { font-size: 14px; margin-bottom: 16px; }
+  .comment-intro__links { font-size: 11px; gap: 8px; }
+  .comment-status { padding: 20px; }
 }
-
-@media (prefers-reduced-motion: reduce) {
-  .comment-loading span,
-  .comment-panel[data-state='ready'] .giscus { animation: none; }
-  .comment-panel .giscus { transition: none; }
-}
+@media (prefers-reduced-motion: reduce) { .comment-loading span, .comment-panel[data-state='ready'] .giscus { animation: none; } }

@@ -8,9 +8,9 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    <img src="{{ author.avatar }}" alt="{{ author.name }}" width="120" height="120" fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" width="120" height="120" fetchpriority="high" />
     {% endif %}
   </div>
 
@@ -21,8 +21,8 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse" aria-label="Show contact and profile links">Contact</button>
-    <ul class="author__urls social-icons">
+    <button type="button" class="btn btn--inverse" aria-label="Show contact and profile links" aria-expanded="false" aria-controls="profile-links">Contact <span aria-hidden="true">+</span></button>
+    <ul class="author__urls social-icons" id="profile-links">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
@@ -130,6 +130,8 @@
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
       {% endif %}
       <li class="author__desktop author__map-widget">
+        <details class="profile-visitor">
+          <summary><i class="fas fa-fw fa-earth-asia" aria-hidden="true"></i> Visitor map <span class="profile-visitor__arrow" aria-hidden="true">&rsaquo;</span></summary>
         <div class="author__map-widget-inner">
           <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=7695e0&w=220&t=tt&d=a-s-f7WD6T0sgjHzS7HbV8fz6wBhStIW8Cb6-uoFB2M&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
           <noscript>
@@ -138,6 +140,7 @@
             </a>
           </noscript>
         </div>
+        </details>
       </li>
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>

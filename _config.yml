@@ -14,6 +14,7 @@ title_separator          : "-"
 name                     : &name "Xinzhe Chen"
 description              : &description "Xinzhe Chen | Applied Cryptography, Network Security and Privacy, Blockchain"
 url                      : https://xinzhe-chen.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+giscus_theme_origin      : https://xinzhe-chen.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xinzhe-chen/xinzhe-chen.github.io"

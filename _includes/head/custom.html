@@ -263,6 +263,7 @@
   }
 </style>
 
+{% unless page.page_class == 'homepage' %}
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const themeToggle = document.querySelector('#theme-toggle a');
@@ -599,6 +600,7 @@
 </script>
 
 <!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+{% endunless %}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
