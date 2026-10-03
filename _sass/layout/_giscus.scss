@@ -4,7 +4,7 @@ body { background: transparent; font-family: -apple-system, BlinkMacSystemFont, 
 main { color-scheme: normal; }
 main .gsc-main { gap: 22px; }
 .gsc-reactions { flex-direction: row; align-items: center; justify-content: flex-start; gap: 12px; }
-.gsc-reactions > div { display: flex; align-items: center; flex-direction: row; gap: 8px; width: auto; flex: 0 0 auto; }
+main .gsc-main .gsc-reactions > div { display: flex; align-items: center; flex-direction: row; justify-content: flex-start; gap: 8px; width: auto; flex: 0 0 auto; margin: 0; }
 .gsc-reactions-count { margin: 0; font-size: 12px; font-weight: 500; }
 .gsc-reactions-count a { color: var(--color-fg-muted); }
 .gsc-reactions .gsc-direct-reaction-buttons { margin: 0; }
@@ -29,7 +29,8 @@ main .gsc-main { gap: 22px; }
 .gsc-comment-header { align-items: center; gap: 10px; padding: 16px 20px 0; font-size: 12px; }
 .gsc-comment-header a { text-decoration: none; }
 .gsc-comment-author { font-weight: 600; }
-.gsc-comment-author-avatar { width: 28px; height: 28px; border-radius: 50%; }
+.gsc-main .gsc-comment-author-avatar { width: auto; height: auto; border-radius: 0; gap: 8px; }
+.gsc-main .gsc-comment-author-avatar img { width: 28px; height: 28px; min-width: 28px; margin: 0; border-radius: 50%; }
 .gsc-comment-content { padding: 16px 20px; font-size: 14px; line-height: 1.75; }
 .gsc-comment-content p { line-height: inherit; }
 .gsc-comment-footer { margin-bottom: 14px; }
@@ -51,7 +52,7 @@ main .gsc-main { gap: 22px; }
   .gsc-comment-box-bottom { padding: 12px; }
   .gsc-comment-header { padding: 14px 14px 0; gap: 8px; font-size: 11px; }
   .gsc-comment-content { padding: 14px; font-size: 13px; }
-  .gsc-comment-author-avatar { width: 24px; height: 24px; }
+  .gsc-main .gsc-comment-author-avatar img { width: 24px; height: 24px; min-width: 24px; }
   .gsc-comment-footer > div { padding-left: 10px; padding-right: 10px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::after { transition: none !important; } }
