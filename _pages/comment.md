@@ -17,7 +17,7 @@ comment_page: true
   </div>
 </div>
 
-<div class="comment-panel" id="comment-panel" data-state="loading" aria-label="Guestbook" data-theme-base="{{ site.giscus_theme_origin }}{{ '/assets/css/giscus' | relative_url }}" data-theme-version="4">
+<div class="comment-panel" id="comment-panel" data-state="loading" aria-label="Guestbook" data-theme-base="{{ site.giscus_theme_origin }}{{ '/assets/css/giscus' | relative_url }}" data-theme-version="5">
   <div class="comment-status" role="status" hidden>
     <div class="comment-loading" aria-hidden="true"><span></span><span></span><span></span></div>
     <p class="comment-status__text">Loading the conversation&hellip;</p>
@@ -30,4 +30,4 @@ comment_page: true
   <noscript><p><a href="https://github.com/xinzhe-chen/xinzhe-chen.github.io/discussions/3">Read and join the conversation on GitHub.</a></p></noscript>
 </div>
 
-<script defer src="{{ '/assets/js/comments.js' | relative_url }}?v=4"></script>
+<script defer src="{{ '/assets/js/comments.js' | relative_url }}?v=5"></script>

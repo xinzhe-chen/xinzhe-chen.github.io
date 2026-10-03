@@ -4,7 +4,7 @@ body { background: transparent; font-family: -apple-system, BlinkMacSystemFont, 
 main { color-scheme: normal; }
 main .gsc-main { gap: 22px; }
 .gsc-reactions { flex-direction: row; align-items: center; justify-content: flex-start; gap: 12px; }
-main .gsc-main .gsc-reactions > div { display: flex; align-items: center; flex-direction: row; justify-content: flex-start; gap: 8px; width: auto; flex: 0 0 auto; margin: 0; }
+#__next .gsc-reactions > div { display: flex; align-items: center; flex-direction: row; justify-content: flex-start; gap: 8px; width: auto; flex: 0 0 auto; margin: 0; }
 .gsc-reactions-count { margin: 0; font-size: 12px; font-weight: 500; }
 .gsc-reactions-count a { color: var(--color-fg-muted); }
 .gsc-reactions .gsc-direct-reaction-buttons { margin: 0; }
@@ -15,7 +15,7 @@ main .gsc-main .gsc-reactions > div { display: flex; align-items: center; flex-d
 .gsc-comments-count, .gsc-replies-count, .gsc-comments-count-separator { font-size: 13px; font-weight: 550; line-height: 1.5; }
 .gsc-left-header em { font-size: 11px; }
 .gsc-right-header .btn { min-height: 32px; padding: 5px 10px; font-size: 11px; font-weight: 500; }
-.gsc-main .gsc-comment-box:not(.gsc-comment-box-is-reply) { overflow: hidden; border-radius: 12px; border-color: var(--color-border-default); }
+#__next .gsc-comment-box:not(.gsc-comment-box-is-reply) { overflow: hidden; border-radius: 12px; border-color: var(--color-border-default); }
 .gsc-comment-box-tabs { padding: 10px 16px 0; background: var(--color-canvas-default); }
 .gsc-comment-box-tabs button { padding: 8px 12px; font-size: 12px; font-weight: 500; }
 .gsc-comment-box-main { padding: 14px 16px 0; }
@@ -25,7 +25,7 @@ main .gsc-main .gsc-reactions > div { display: flex; align-items: center; flex-d
 .gsc-comment-box-bottom { padding: 14px 16px 16px; }
 .gsc-comment-box-buttons .btn { min-height: 38px; padding: 8px 14px; border-radius: 8px; font-size: 12px; font-weight: 550; }
 .gsc-timeline { gap: 16px; }
-.gsc-main .gsc-comment > div { overflow: hidden; border-radius: 12px; border-color: var(--color-border-default); }
+#__next .gsc-comment > div { overflow: hidden; border-radius: 12px; border-color: var(--color-border-default); }
 .gsc-comment-header { align-items: center; gap: 10px; padding: 16px 20px 0; font-size: 12px; }
 .gsc-comment-header a { text-decoration: none; }
 .gsc-comment-author { font-weight: 600; }
