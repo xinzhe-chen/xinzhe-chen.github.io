@@ -465,6 +465,10 @@
         }
       }
 
+      if (window.scrollY > 0 && window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2) {
+        current = linkTargets[linkTargets.length - 1];
+      }
+
       for (const item of linkTargets) {
         item.link.classList.toggle("nav-section-active", item === current);
         if (item === current) {
