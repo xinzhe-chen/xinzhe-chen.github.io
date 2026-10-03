@@ -1,10 +1,11 @@
 ---
 permalink: /
-title: "Welcome to My Homepage"
+title: "Xinzhe Chen"
+excerpt: "M.Sc. student at NUS working on applied cryptography, network security and privacy, and blockchain."
 author_profile: true
 hide_page_title: true
 page_class: homepage
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -12,9 +13,9 @@ redirect_from:
 ## About Me
 {: #about-me}
 
-I am currently a MSc student at National University of Singapore, majoring in Computer Engineering (Digitalization and Communication Technology Track).
+I am an M.Sc. student in Computer Engineering at the **National University of Singapore (NUS)** and a Research Intern at **Huawei 2012 Labs Singapore Research Center**.
 
-My research interests lie in cryptography topics, especially in ***Cryptographic Protocols*** and ***Zero-Knowledge Proof***. Blockchain and Post-Quantum Cryptography are interesting for me as well.
+My research interests are **Applied Cryptography** and **Network Security and Privacy**. I am also interested in **Blockchain**.
 
 <div class="document-links" aria-label="Academic documents">
   <a class="document-link document-link--primary" href="{{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a>
@@ -22,107 +23,81 @@ My research interests lie in cryptography topics, especially in ***Cryptographic
   <a class="document-link" href="{{ '/files/Graduate_Transcript_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> Graduate Transcript</a>
 </div>
 
-<p class="availability-note">I am actively looking for research opportunities in these areas.</p>
+<p class="availability-note">I am actively looking for research opportunities in these areas. <a href="mailto:asleep@u.nus.edu">Get in touch <span aria-hidden="true">&rarr;</span></a></p>
 
-
-
-## News
-{: #news}
-
-<ul class="homepage-list">
-  <li>
-    <div class="date-row homepage-row">
-      <span class="item-content">My homepage is now live!</span>
-      <span class="item-date">2026.02.25</span>
-    </div>
-  </li>
-</ul>
-
-## Publications
+## Publications &amp; Preprints
 {: #publications}
 
 <ul class="publication-list">
   <li class="publication-card">
-    <div class="publication-card__title">Distributed SNARK via Folding Schemes</div>
-    <div class="publication-card__meta">
-      <span class="publication-card__status">Accepted</span>
-      <span>Journal of Cryptologic Research</span>
-    </div>
+    <div class="publication-card__meta"><span class="publication-card__status">Under submission</span><span>ICLR 2027</span></div>
+    <h3 class="publication-card__title">Incremental Verifiable Inference for Large Language Models</h3>
   </li>
   <li class="publication-card">
-    <div class="publication-card__title"><a href="https://eprint.iacr.org/2025/2327.pdf">Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication</a></div>
-    <div class="publication-card__meta">
-      <span class="publication-card__status">Under Review</span>
-      <span>PKC 2027</span>
-    </div>
+    <div class="publication-card__meta"><span class="publication-card__status publication-card__status--accepted">Accepted</span><span>Journal of Cryptologic Research</span></div>
+    <h3 class="publication-card__title">Distributed zkSNARK via Folding Schemes</h3>
+  </li>
+  <li class="publication-card">
+    <div class="publication-card__meta"><span class="publication-card__status">Under submission</span><span>PKC 2027</span></div>
+    <h3 class="publication-card__title"><a href="https://eprint.iacr.org/2025/2327">Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication</a></h3>
+    <a class="publication-card__link" href="https://eprint.iacr.org/2025/2327.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper <span aria-hidden="true">&rarr;</span></a>
   </li>
 </ul>
 
-## Honors
-{: #honors}
+## Experience
+{: #internships}
 
-<ul class="homepage-list">
+<ul class="homepage-list experience-list">
   <li>
     <div class="date-row">
-      <span class="item-content"><strong>Outstanding Graduation Project Award</strong> <span class="item-affiliation">(NUSRI)</span></span>
-      <span class="item-date">2025.05</span>
+      <h3 class="entry-title org-entry-title"><img class="inline-org-logo" src="{{ '/images/huawei_logo.jpg' | relative_url }}" alt="" loading="lazy">Huawei 2012 Labs Singapore Research Center</h3>
+      <span class="item-date">Sep 2025 - Present</span>
     </div>
+    <p class="entry-meta">Research Intern &middot; Wi-Fi and IEEE 802.11 Standardization Research</p>
   </li>
   <li>
     <div class="date-row">
-      <span class="item-content"><strong>Outstanding Student Scholarship</strong> <span class="item-affiliation">(SCSE of UESTC)</span></span>
-      <span class="item-date">2024.12</span>
+      <h3 class="entry-title">Beijing Institute of Mathematical Sciences and Applications (BIMSA)</h3>
+      <span class="item-date">Dec 2025 - May 2026</span>
     </div>
-  </li>
-  <li>
-    <div class="date-row">
-      <span class="item-content"><strong>Model Student Scholarship</strong> <span class="item-affiliation">(SCSE of UESTC)</span></span>
-      <span class="item-date">2023.12</span>
-    </div>
-  </li>
-  <li>
-    <div class="date-row">
-      <span class="item-content"><strong>Model Student Scholarship</strong> <span class="item-affiliation">(SCSE of UESTC)</span></span>
-      <span class="item-date">2022.12</span>
-    </div>
+    <p class="entry-meta">Research Assistant</p>
   </li>
 </ul>
 
 ## Education
 {: #education}
 
-<ul class="homepage-list">
+<ul class="homepage-list experience-list">
   <li>
-    <div class="date-row date-row--end">
-      <div class="item-content">
-        <span class="org-entry-title"><img class="inline-org-logo" src="{{ '/images/nus_logo.jpg' | relative_url }}" alt="NUS logo"><strong>National University of Singapore ( NUS )</strong></span><br>
-        <em>M.Sc. student in Computer Engineering, College of Design and Engineering</em>
-      </div>
-      <span class="item-date">2025.08 - 2027.01</span>
+    <div class="date-row">
+      <h3 class="entry-title org-entry-title"><img class="inline-org-logo" src="{{ '/images/nus_logo.jpg' | relative_url }}" alt="" loading="lazy">National University of Singapore (NUS)</h3>
+      <span class="item-date">Aug 2025 - Jan 2027</span>
     </div>
+    <p class="entry-meta">M.Sc. in Computer Engineering &middot; Expected Jan 2027</p>
+    <p class="entry-description">College of Design and Engineering &middot; GPA: <strong>4.38/5.0</strong></p>
   </li>
   <li>
-    <div class="date-row date-row--end">
-      <div class="item-content">
-        <span class="org-entry-title"><img class="inline-org-logo" src="{{ '/images/uestclog' | relative_url }}" alt="UESTC logo"><strong>University of Electronic Science and Technology of China ( UESTC )</strong></span><br>
-        <em>B.Eng. in Cyberspace Security, School of Computer Science and Engineering</em>
-      </div>
-      <span class="item-date">2021.09 - 2025.07</span>
+    <div class="date-row">
+      <h3 class="entry-title org-entry-title"><img class="inline-org-logo" src="{{ '/images/uestclog' | relative_url }}" alt="" loading="lazy">University of Electronic Science and Technology of China (UESTC)</h3>
+      <span class="item-date">Sep 2021 - Jul 2025</span>
     </div>
+    <p class="entry-meta">B.Eng. in Cyberspace Security</p>
+    <p class="entry-description">School of Computer Science and Engineering &middot; GPA: <strong>3.73/4.0</strong></p>
   </li>
 </ul>
 
-## Internships
-{: #internships}
+## Honors &amp; Awards
+{: #honors}
+
+<ul class="homepage-list honors-list">
+  <li><div class="date-row"><span class="item-content"><strong>Outstanding Graduation Project</strong> <span class="item-affiliation">&middot; NUSRI</span></span><span class="item-date">May 2025</span></div></li>
+  <li><div class="date-row"><span class="item-content"><strong>Outstanding Student Scholarship</strong> <span class="item-affiliation">&middot; UESTC</span></span><span class="item-date">Dec 2024</span></div></li>
+  <li><div class="date-row"><span class="item-content"><strong>Model Student Scholarship</strong> <span class="item-affiliation">&middot; UESTC</span></span><span class="item-date">Dec 2022, 2023</span></div></li>
+</ul>
+
+## News
+{: #news}
 
 <ul class="homepage-list">
-  <li>
-    <div class="date-row date-row--end">
-      <div class="item-content">
-        <span class="org-entry-title"><img class="inline-org-logo" src="{{ '/images/huawei_logo.jpg' | relative_url }}" alt="Huawei logo"><strong>Huawei 2012 Labs Singapore Research Center</strong></span><br>
-        <em>Research Intern: Wi-Fi and IEEE 802.11 Standardization Research</em>
-      </div>
-      <span class="item-date">2025.09 - Now</span>
-    </div>
-  </li>
+  <li><div class="date-row"><span class="item-content">My homepage is now live!</span><time class="item-date" datetime="2026-02-25">Feb 2026</time></div></li>
 </ul>

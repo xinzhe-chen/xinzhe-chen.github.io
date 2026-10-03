@@ -11,23 +11,20 @@ main:
   - title: "About Me"
     url: /#about-me
 
-  - title: "News"
-    url: /#news
-
   - title: "Publications"
     url: /#publications
 
-  - title: "CV"
-    url: /files/CV_Xinzhe_Chen.pdf
-
-  - title: "Honors"
-    url: /#honors
+  - title: "Experience"
+    url: /#internships
 
   - title: "Education"
     url: /#education
 
-  - title: "Internships"
-    url: /#internships
+  - title: "Honors"
+    url: /#honors
+
+  - title: "CV"
+    url: /files/CV_Xinzhe_Chen.pdf
 
   - title: "Comment"
     url: /comment/
