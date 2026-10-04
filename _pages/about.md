@@ -38,7 +38,7 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
 <ul class="publication-list">
   <li class="publication-card">
     <div class="publication-card__meta"><span class="publication-card__status">Under submission</span><span>ICLR 2027</span></div>
-    <h3 class="publication-card__title">Incremental Verifiable Inference for Large Language Models</h3>
+    <h3 class="publication-card__title">Incremental Verifiable Inference for State Space Language Models</h3>
   </li>
   <li class="publication-card">
     <div class="publication-card__meta"><span class="publication-card__status publication-card__status--accepted">Accepted</span><span>Journal of Cryptologic Research</span></div>
