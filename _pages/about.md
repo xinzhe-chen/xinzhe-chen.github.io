@@ -13,7 +13,7 @@ redirect_from:
 # About Me
 {: #about-me}
 
-I am an M.Sc. student in Computer Engineering at the **National University of Singapore (NUS)** and a Research Intern at **Huawei 2012 Labs Singapore Research Center**.
+I am pursuing an M.Sc. in Computer Engineering at the **National University of Singapore (NUS)**. I received my B.Eng. in Cyberspace Security from the **University of Electronic Science and Technology of China (UESTC)**.
 
 My research interests are **Applied Cryptography** and **Network Security and Privacy**. I am also interested in **Blockchain**.
 
