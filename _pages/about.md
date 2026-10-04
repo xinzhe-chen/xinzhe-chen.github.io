@@ -23,7 +23,14 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
   <a class="document-link" href="{{ '/files/Graduate_Transcript_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> Graduate Transcript</a>
 </div>
 
-<p class="availability-note">I am actively looking for research opportunities in these areas. <a href="mailto:asleep@u.nus.edu">Get in touch <span aria-hidden="true">&rarr;</span></a></p>
+<details class="availability-note" id="contact-details">
+  <summary><span>I am actively looking for research opportunities in these areas.</span><span class="availability-trigger">Get in touch <span aria-hidden="true">&rarr;</span></span></summary>
+  <div class="contact-details">
+    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    <button type="button" class="copy-email" data-email="{{ site.author.email }}">Copy email</button>
+    <span class="contact-status" role="status" aria-live="polite"></span>
+  </div>
+</details>
 
 ## Publications &amp; Preprints
 {: #publications}
@@ -40,7 +47,6 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
   <li class="publication-card">
     <div class="publication-card__meta"><span class="publication-card__status">Under submission</span><span>PKC 2027</span></div>
     <h3 class="publication-card__title"><a href="https://eprint.iacr.org/2025/2327">Code-based Distributed Polynomial Commitment Scheme with Linear Prover Time and Polylogarithmic Communication</a></h3>
-    <a class="publication-card__link" href="https://eprint.iacr.org/2025/2327.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper <span aria-hidden="true">&rarr;</span></a>
   </li>
 </ul>
 
@@ -59,10 +65,10 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
     </div>
   </li>
   <li class="curriculum-entry">
-    <span class="entry-emblem" aria-hidden="true"><i class="fas fa-building-columns"></i></span>
+    <img class="entry-emblem" src="{{ '/images/bimsa_logo.ico' | relative_url }}" alt="" width="32" height="32" loading="lazy">
     <div class="entry-body">
     <div class="date-row">
-      <h3 class="entry-title">Beijing Institute of Mathematical Sciences and Applications (BIMSA)</h3>
+      <h3 class="entry-title"><a href="https://www.bimsa.cn/detail/ChenXinzhe.html">Beijing Institute of Mathematical Sciences and Applications (BIMSA)</a></h3>
       <span class="item-date">Dec 2025 - May 2026</span>
     </div>
     <p class="entry-meta">Research Assistant</p>

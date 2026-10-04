@@ -449,11 +449,8 @@
 }
 
 .homepage .page__content .availability-note {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px 16px;
+  display: block;
+  margin: 0 0 1.3em;
   max-width: none;
   padding: 14px 16px;
   border: 1px solid var(--home-border-color);
@@ -462,10 +459,19 @@
   background: var(--home-surface-color);
   font-size: 13px;
   line-height: 1.65;
-  a { font-weight: 550; white-space: nowrap; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  a span { display: inline-block; transition: transform 200ms ease; }
-  a:hover span { transform: translateX(3px); }
+  summary { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; cursor: pointer; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary:focus-visible { outline: 2px solid var(--home-accent-color); outline-offset: 6px; border-radius: 2px; }
+  .availability-trigger { color: var(--home-accent-color); font-weight: 550; white-space: nowrap; }
+  .availability-trigger span { display: inline-block; margin-left: 3px; transition: transform 200ms ease; }
+  summary:hover .availability-trigger span { transform: translateX(3px); }
+  &[open] .availability-trigger span { transform: rotate(90deg); }
+  .contact-details { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--home-border-color); }
+  .contact-details a { color: var(--global-text-color); font-weight: 550; text-decoration: none; overflow-wrap: anywhere; }
+  .contact-details a:hover { color: var(--home-accent-color); text-decoration: underline; }
+  .copy-email { min-height: 32px; padding: 4px 10px; border: 1px solid var(--home-border-color); border-radius: 6px; color: var(--home-accent-color); background: var(--home-card-color); font: inherit; font-size: 12px; cursor: pointer; transition: border-color 180ms ease; }
+  .copy-email:hover { border-color: var(--home-accent-color); }
+  .contact-status { color: var(--home-muted-color); font-size: 12px; }
 }
 
 .homepage-list, .publication-list { margin: 0; padding: 0; list-style: none; }
@@ -474,11 +480,10 @@
 .homepage .publication-card__title { margin: 12px 0 0; color: var(--global-text-color); font-size: 17px; font-weight: 600; line-height: 1.55; letter-spacing: -0.02em; a { color: inherit; text-decoration: none; &:hover { color: var(--home-accent-color); } } }
 .publication-card__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; color: var(--home-muted-color); font-size: 12px; line-height: 1.5; }
 .publication-card__status { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px; border-radius: 5px; color: var(--home-muted-color); background: var(--home-surface-color); font-size: 11px; font-weight: 550; &::before { content: ""; width: 4px; height: 4px; border-radius: 50%; background: currentColor; opacity: 0.7; } &--accepted { color: var(--home-accepted-color); background: var(--home-accepted-bg); } }
-.homepage .publication-card__link { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; margin-top: 10px; font-size: 12px; font-weight: 550; text-decoration: none; &:hover { text-decoration: underline; } }
 
 .date-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: baseline; gap: 6px 24px; }
 .date-row .item-date { color: var(--home-muted-color); font-size: 12px; font-variant-numeric: tabular-nums; line-height: 1.5; white-space: nowrap; }
-.homepage .entry-title { min-width: 0; margin: 0; color: var(--global-text-color); font-size: 15px; font-weight: 600; line-height: 1.6; letter-spacing: -0.015em; }
+.homepage .entry-title { min-width: 0; margin: 0; color: var(--global-text-color); font-size: 15px; font-weight: 600; line-height: 1.6; letter-spacing: -0.015em; a { color: inherit; text-decoration: none; &:hover { color: var(--home-accent-color); text-decoration: underline; } } }
 .experience-list > .curriculum-entry { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 16px; margin: 0; padding: 24px 0; border-bottom: 1px solid var(--home-border-color); &:first-child { padding-top: 0; } &:last-child { padding-bottom: 0; border: 0; } }
 .entry-emblem { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; margin-top: 1px; padding: 3px; border: 1px solid #e7ebef; border-radius: 8px; color: #687586; background: #fff; object-fit: contain; font-size: 15px; }
 .entry-body { min-width: 0; }
