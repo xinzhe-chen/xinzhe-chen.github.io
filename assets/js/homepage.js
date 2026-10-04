@@ -23,7 +23,7 @@
     else root.removeAttribute('data-theme');
     themeButton.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
     themeButton.setAttribute('aria-pressed', String(dark));
-    document.querySelector('meta[name="theme-color"]').content = dark ? '#151b24' : '#fcfcfd';
+    document.querySelector('meta[name="theme-color"]').content = dark ? '#191b1e' : '#ffffff';
   }
 
   setTheme(storedTheme() === 'dark' || ((!storedTheme() || storedTheme() === 'system') && systemTheme.matches));
@@ -161,7 +161,7 @@
   updateNavigation();
 
   if (!motion.matches && 'IntersectionObserver' in window) {
-    const items = document.querySelectorAll('.page__content > h1, .page__content > h2, .page__content > p, .availability-note, .document-links, .publication-card, .homepage-list > li, .comment-intro, .comment-panel');
+    const items = document.querySelectorAll('.profile-intro, .page__content > h1, .page__content > h2, .page__content > p, .availability-note, .document-links, .publication-card, .homepage-list > li, .comment-intro, .comment-panel');
     const observer = new IntersectionObserver(entries => {
       for (const entry of entries) if (entry.isIntersecting) {
         entry.target.classList.add('is-visible');

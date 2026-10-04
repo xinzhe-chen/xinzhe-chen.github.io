@@ -2,7 +2,7 @@
 permalink: /
 title: "Xinzhe Chen"
 excerpt: "M.Sc. student at NUS working on applied cryptography, network security and privacy, and blockchain."
-author_profile: true
+author_profile: false
 hide_page_title: true
 page_class: homepage
 redirect_from:
@@ -10,12 +10,21 @@ redirect_from:
   - /about.html
 ---
 
+<div class="profile-intro">
+<div class="profile-intro__copy" markdown="1">
+
 # About Me
 {: #about-me}
 
 I am pursuing an M.Sc. in Computer Engineering at the **National University of Singapore (NUS)**. I received my B.Eng. in Cyberspace Security from the **University of Electronic Science and Technology of China (UESTC)**.
 
 My research interests are **Applied Cryptography** and **Network Security and Privacy**. I am also interested in **Blockchain**.
+
+{% include profile-links.html %}
+
+</div>
+<img class="profile-intro__portrait" src="{{ site.author.avatar | prepend: "/images/" | relative_url }}" alt="Xinzhe Chen" width="112" height="140">
+</div>
 
 <div class="document-links" aria-label="Academic documents">
   <a class="document-link document-link--primary" href="{{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a>
@@ -113,9 +122,4 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
   <li><div class="date-row"><span class="item-content"><strong>Model Student Scholarship</strong> <span class="item-affiliation">&middot; UESTC</span></span><span class="item-date">Dec 2022, 2023</span></div></li>
 </ul>
 
-## News
-{: #news}
-
-<ul class="homepage-list">
-  <li><div class="date-row"><span class="item-content">My homepage is now live!</span><time class="item-date" datetime="2026-02-25">Feb 2026</time></div></li>
-</ul>
+{% include profile-visitor.html %}

@@ -3,7 +3,7 @@ permalink: /comment/
 title: "Comments"
 excerpt: "Leave a note, ask a question, or say hello."
 hide_page_title: true
-author_profile: true
+author_profile: false
 page_class: homepage
 comment_page: true
 ---
@@ -17,7 +17,7 @@ comment_page: true
   </div>
 </div>
 
-<div class="comment-panel" id="comment-panel" data-state="loading" aria-label="Guestbook" data-theme-base="{{ site.giscus_theme_origin }}{{ '/assets/css/giscus' | relative_url }}" data-theme-version="6">
+<div class="comment-panel" id="comment-panel" data-state="loading" aria-label="Guestbook" data-theme-base="{{ site.giscus_theme_origin }}{{ '/assets/css/giscus' | relative_url }}" data-theme-version="7">
   <div class="comment-status" role="status" hidden>
     <div class="comment-loading" aria-hidden="true"><span></span><span></span><span></span></div>
     <p class="comment-status__text">Loading the conversation&hellip;</p>
@@ -30,4 +30,6 @@ comment_page: true
   <noscript><p><a href="https://github.com/xinzhe-chen/xinzhe-chen.github.io/discussions/3">Read and join the conversation on GitHub.</a></p></noscript>
 </div>
 
-<script defer src="{{ '/assets/js/comments.js' | relative_url }}?v=6"></script>
+<script defer src="{{ '/assets/js/comments.js' | relative_url }}?v=7"></script>
+
+{% include profile-visitor.html %}

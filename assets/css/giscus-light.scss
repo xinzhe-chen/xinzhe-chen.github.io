@@ -101,41 +101,41 @@ main .gsc-loading-image {
 }
 
 main {
-  --color-fg-default: #293442;
-  --color-fg-muted: #647284;
-  --color-fg-subtle: #647284;
+  --color-fg-default: #30343b;
+  --color-fg-muted: #6b7078;
+  --color-fg-subtle: #6b7078;
   --color-canvas-default: #fff;
   --color-canvas-overlay: #fff;
-  --color-canvas-inset: #f2f5f8;
-  --color-canvas-subtle: #f2f5f8;
-  --color-border-default: #e1e7ee;
-  --color-border-muted: #e1e7ee;
-  --color-neutral-muted: #f2f5f8;
-  --color-accent-fg: #315c85;
-  --color-accent-emphasis: #315c85;
-  --color-accent-muted: #e1e7ee;
-  --color-accent-subtle: #f2f5f8;
-  --color-btn-text: #293442;
+  --color-canvas-inset: #f7f7f5;
+  --color-canvas-subtle: #f7f7f5;
+  --color-border-default: #e8e8e5;
+  --color-border-muted: #e8e8e5;
+  --color-neutral-muted: #f7f7f5;
+  --color-accent-fg: #80603c;
+  --color-accent-emphasis: #80603c;
+  --color-accent-muted: #e8e8e5;
+  --color-accent-subtle: #f7f7f5;
+  --color-btn-text: #30343b;
   --color-btn-bg: #fff;
-  --color-btn-border: #e1e7ee;
-  --color-btn-hover-bg: #f2f5f8;
-  --color-btn-hover-border: #315c85;
-  --color-btn-selected-bg: #f2f5f8;
+  --color-btn-border: #e8e8e5;
+  --color-btn-hover-bg: #f7f7f5;
+  --color-btn-hover-border: #80603c;
+  --color-btn-selected-bg: #f7f7f5;
   --color-btn-primary-text: #fff;
-  --color-btn-primary-bg: #315c85;
-  --color-btn-primary-border: #315c85;
-  --color-btn-primary-hover-bg: #254b6f;
-  --color-btn-primary-hover-border: #254b6f;
-  --color-btn-primary-disabled-bg: #f2f5f8;
-  --color-btn-primary-disabled-text: #647284;
-  --color-btn-primary-disabled-border: #e1e7ee;
+  --color-btn-primary-bg: #80603c;
+  --color-btn-primary-border: #80603c;
+  --color-btn-primary-hover-bg: #62472b;
+  --color-btn-primary-hover-border: #62472b;
+  --color-btn-primary-disabled-bg: #f7f7f5;
+  --color-btn-primary-disabled-text: #6b7078;
+  --color-btn-primary-disabled-border: #e8e8e5;
   --color-btn-shadow: none;
   --color-btn-inset-shadow: none;
   --color-btn-primary-shadow: none;
   --color-btn-primary-inset-shadow: none;
-  --color-segmented-control-bg: #f2f5f8;
+  --color-segmented-control-bg: #f7f7f5;
   --color-segmented-control-button-bg: #fff;
-  --color-segmented-control-button-selected-border: #e1e7ee;
+  --color-segmented-control-button-selected-border: #e8e8e5;
 }
 
 @import "layout/giscus";
