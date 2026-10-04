@@ -1,9 +1,9 @@
 .comment-body .page__inner-wrap > header { display: none; }
 .comment-body .page__content { max-width: 776px; }
 .comment-intro { margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid var(--home-border-color); }
-.comment-intro h1 { margin: 0 0 16px; color: var(--global-text-color); font-size: 32px; font-weight: 650; letter-spacing: -0.045em; line-height: 1.15; }
-.comment-intro > p { margin: 0 0 20px; color: var(--home-muted-color); font-size: 15px; line-height: 1.8; }
-.comment-intro__links { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; color: var(--home-muted-color); font-size: 12px; line-height: 1.65; }
+.comment-intro h1 { margin: 0 0 22px; color: var(--global-text-color); font-family: var(--home-font-serif); font-size: var(--home-font-display); font-weight: 600; letter-spacing: -0.025em; line-height: 1.1; }
+.comment-intro > p { margin: 0 0 24px; color: var(--home-muted-color); font-size: var(--home-font-body); line-height: 1.8; }
+.comment-intro__links { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 24px; color: var(--home-muted-color); font-size: 13px; line-height: 1.65; }
 .comment-intro__links > span { display: flex; align-items: center; gap: 8px; }
 .comment-intro__links a { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; font-weight: 550; text-decoration: none; }
 .comment-intro__links a:hover { text-decoration: underline; }
@@ -30,9 +30,9 @@
 @keyframes guestbookContentIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
 @media (max-width: 600px) {
   .comment-intro { margin-bottom: 24px; padding-bottom: 20px; }
-  .comment-intro h1 { font-size: 28px; }
-  .comment-intro > p { font-size: 14px; margin-bottom: 16px; }
-  .comment-intro__links { font-size: 11px; gap: 8px; }
+  .comment-intro h1 { margin-bottom: 20px; }
+  .comment-intro > p { margin-bottom: 20px; }
+  .comment-intro__links { font-size: 12px; gap: 8px; }
   .comment-status { padding: 20px; }
 }
 @media (prefers-reduced-motion: reduce) { .comment-loading span, .comment-panel[data-state='ready'] .giscus { animation: none; } }

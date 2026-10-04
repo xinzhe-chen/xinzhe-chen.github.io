@@ -1,0 +1,16 @@
+/* Locally hosted Latin fonts; see assets/fonts for the SIL Open Font Licenses. */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("../fonts/inter-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/crimson-text-latin-600.woff2") format("woff2");
+}
