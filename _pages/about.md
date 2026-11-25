@@ -28,8 +28,6 @@ My research interests are **Applied Cryptography** and **Network Security and Pr
 
 <div class="document-links" aria-label="Academic documents">
   <a class="document-link document-link--primary" href="{{ '/files/CV_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> Curriculum Vitae</a>
-  <a class="document-link" href="{{ '/files/Undergraduate_Transcript_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> Undergraduate Transcript</a>
-  <a class="document-link" href="{{ '/files/Graduate_Transcript_Xinzhe_Chen.pdf' | relative_url }}"><i class="fas fa-file-lines" aria-hidden="true"></i> Graduate Transcript</a>
 </div>
 
 <details class="availability-note" id="contact-details">
